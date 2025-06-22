@@ -38,6 +38,9 @@ The model is trained using a **Mean Squared Error (MSE)** loss function and opti
 
 ## Use of Convolutional Autoencoders <a name="use-of-convolutional-autoencoders"></a>
 
+### **Convolutional Autoencoder**
+- A **Convolutional Autoencoder** is the core architecture used in this model. It is designed to learn compact, spatially-aware representations of images and reconstruct them from these learned features. The model follows the typical encoder-bottleneck-decoder structure, where the encoder compresses the input image into a lower-dimensional feature space, and the decoder reconstructs the image from this compressed form. This approach is particularly effective for tasks like missing pixel prediction, where retaining and recovering spatial context is crucial. In this project, the encoder and bottleneck of the convolutional autoencoder are implemented using a Convolutional Neural Network (CNN) and a Multi-Layer Perceptron (MLP), respectively.
+
 ### **Convolutional Neural Network (CNN)**
 - **Role**: The CNN is used in the **Head** of the model to extract spatial features from the input image. It captures local patterns, edges, and textures, which are essential for understanding the structure of the image.
 - **Architecture**:
