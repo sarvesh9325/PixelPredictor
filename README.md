@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Assumptions](#assumptions)
 3. [Network Model](#network-model)
-4. [Use of CNN and MLP](#use-of-cnn-and-mlp)
+4. [Use of Convolutional Autoencoders](#use-of-convolutional-autoencoders)
 5. [Attributes and Parameters](#attributes-and-parameters)
 6. [Simulation Algorithm](#simulation-algorithm)
 7. [Performance Analysis](#performance-analysis)
@@ -36,7 +36,7 @@ The model is trained using a **Mean Squared Error (MSE)** loss function and opti
 
 ---
 
-## Use of CNN and MLP <a name="use-of-cnn-and-mlp"></a>
+## Use of Convolutional Autoencoders <a name="use-of-convolutional-autoencoders"></a>
 
 ### **Convolutional Neural Network (CNN)**
 - **Role**: The CNN is used in the **Head** of the model to extract spatial features from the input image. It captures local patterns, edges, and textures, which are essential for understanding the structure of the image.
