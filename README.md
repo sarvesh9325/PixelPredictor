@@ -16,6 +16,8 @@
 This project, **Pixel Predictor**, is a deep learning-based approach to predict and restore missing or corrupted pixels in RGB images. The model is built using a convolutional autoencoder architecture, which effectively extracts features, processes them, and recontructs the image. 
 A convolutional autoencoders is a type of neural network that uses convolutional layers to learn efficient image representations and recontruct input data. The project is implemented using PyTorch and is designed to handle RGB images with missing or corrupted pixel data.
 
+![image_alt](results/final_result.png)
+
 ---
 
 ## Assumptions <a name="assumptions"></a>
